@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirigiendo a WhatsApp...</title>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src='https://connect.facebook.net/en_US/fbevents.js';
+    s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script');
+
+    fbq('init', '740022821699390');
+    fbq('track', 'PageView');
+    fbq('track', 'Subscribe');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=740022821699390&ev=PageView&noscript=1"/>
+   <img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=740022821699390&ev=Subscribe&noscript=1"/>
+  </noscript>
+
+  <meta http-equiv="refresh" content="5; url=https://wa.me/5491132017460?text=Hola%2C+quiero+mas+informacion+sobre+cajero">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #6a0dad;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+      animation: pop 1s ease;
+    }
+
+    h1 {
+      color: #00ff00;
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+
+    .spinner {
+      border: 6px solid rgba(255, 255, 255, 0.3);
+      border-top: 6px solid #00ff00;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+  <h1>Direccionando a WhatsApp...</h1>
+  <div class="spinner"></div>
+
+</body>
+</html>
